@@ -1,0 +1,43 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@100&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@900&family=Ubuntu&display=swap'); */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;;
+    text-align: center;
+}
+header{
+    margin: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 7rem;
+    height: 7rem;
+    font-size: 50px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: background-color 0.15s;
+}
+.btn:hover{
+    background-color: lightgray;
+}
+#affichage{
+    width: 26.5rem;
+    height: 7rem;
+    background-color: grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#affichage > span{
+    font-size: xx-large;
+    margin: 5px;
+}

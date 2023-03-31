@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierre , feuile, ciseau en JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Titre et score -->
+    <header>
+        <h1>Pierre, feuille, ciseau !</h1>
+        <h2 id="score_joueur">Votre score : 0</h2>
+        <p id="score_ordi">Score de l'ordi : 0</p>    
+    </header>
+    <main>
+    <!-- Boutons de jeu-->
+    <div id="boutons">
+        <button id="pierre" class="btn">👍</button>
+        <button id="feuille" class="btn">👌</button>
+        <button id="ciseau" class="btn">✌</button>
+    </div>
+    <!-- Zone d'affichage -->
+    <div id="affichage">
+        <span id="main_joueur"></span>
+        <span id="issue"></span>
+        <span id="main_ordi"></span>
+    </div>
+    <div id="recommencer">
+       <button id="btn-recommencer" class="btn">💖</button>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
